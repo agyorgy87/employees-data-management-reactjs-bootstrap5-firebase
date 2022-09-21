@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.homeMain {
+    height: 500px;
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.welcomeBox {
+    height: 60%;
+    width: 80%;
+    text-align: center;
+    background-color: #222831;
+} 
+
+.welcomeTitle {
+    color: #EEEEEE;
+    font-size: 100px;
+    font-family: 'Vollkorn', serif;
+}
+
+.welcomeLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.IconStyle {
+    padding-right: 10px;
+    color: #00ADB5;
+    font-size: 40px;
+}
+
+.welcomeTextTitle {
+    color: #00ADB5;
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+
+.buttonsForPages {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.createDataButton {
+    width: 33%;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.createDataButton:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.existingData {
+    width: 33%;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.existingData:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+
+

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
+
+.registerForm {
+    width: 40%;
+    margin: 150px auto;
+}
+
+.createDataTextInForm{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 60px;
+    font-family: 'Vollkorn', serif;
+}
+
+.formButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton {
+    height: 40px;
+    width: 23%;
+    margin-top: 50px;
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.succesfulRegistrationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #EEEEEE;
+}
+
+.succesfulRegistrationBox{
+    width: 40%;
+    border: 1px solid #53BF9D;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #53BF9D;
+    color: #292e35;
+    font-weight: 500;
+}
+
+.submitButton:hover{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.invalidDataText{
+    color: red;
+}

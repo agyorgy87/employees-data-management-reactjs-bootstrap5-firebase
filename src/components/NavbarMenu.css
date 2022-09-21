@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.navBarMenuBox {
+    background-color: #EEEEEE;
+}
+
+.NavLogoBox {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.LogoBox {
+    margin-top: 5px;
+    display: flex;
+}
+
+.NavLogoIcon {
+    padding-right: 5px;
+    color: #00ADB5;
+    font-size: 20px;
+}
+
+.NavLogoText {
+    color: #00ADB5;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.NavBarMenuTextStyle {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+.NavBarMenuTextStyle:after {
+    height: 2px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    transform: scaleX(0);
+    bottom: 0;
+    left: 0;
+    background-color: #00ADB5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+
+.NavBarMenuTextStyle:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.databaseContent{
+    color: white;
+}

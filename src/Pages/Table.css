@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
+
+.contactsTable {
+    width: 1200px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.mainTitleInTable {
+    color: #EEEEEE;
+    font-size: 60px;
+    font-family: 'Vollkorn', serif;
+}
+
+.searchByNameLabelText {
+    padding-right: 10px;
+    color: #EEEEEE;
+    font-size: 20px;
+}
+
+.form-control-sm {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.form-check {
+    color: #EEEEEE;
+}
+
+.filterTitle {
+    color: #EEEEEE;
+}
+
+.table {
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.editUserButton {
+    border: 2px #EEEEEE solid;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.editUserButton:hover {
+    background-color: #00ADB5;
+}
+
+.deleteUserButton {
+    border: 2px #EEEEEE solid;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.deleteUserButton:hover {
+    background-color: #00ADB5;
+}
+
+
