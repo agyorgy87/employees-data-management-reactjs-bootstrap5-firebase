@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
 
-.registerForm {
+.register-form {
     width: 40%;
     margin: 150px auto;
 }
 
-.createDataTextInForm{
+.register-text{
     text-align: center;
     color: #EEEEEE;
     font-size: 60px;
     font-family: 'Vollkorn', serif;
 }
 
-.formButtonBox {
+.form-button-container {
     display: flex;
     justify-content: center;
 }
 
-.submitButton {
+.submit-button {
     height: 40px;
     width: 23%;
     margin-top: 50px;
@@ -27,14 +27,19 @@
     color: #EEEEEE;
 }
 
-.succesfulRegistrationContainer {
+.submit-button:hover {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.succesful-registration-container {
     width: 100%;
     display: flex;
     justify-content: center;
     color: #EEEEEE;
 }
 
-.succesfulRegistrationBox{
+.succesful-registration-text-container {
     width: 40%;
     border: 1px solid #53BF9D;
     border-radius: 5px;
@@ -45,15 +50,10 @@
     font-weight: 500;
 }
 
-.submitButton:hover{
-    background-color: #00ADB5;
-    color: #EEEEEE;
-}
-
 .invalid {
     border-color: red;
 }
 
-.invalidDataText{
+.invalid-data-text {
     color: red;
 }

@@ -143,11 +143,11 @@ const UpdateData = () => {
 
     return (
         <div>
-            <NavbarMenu/>
+            <NavbarMenu/> 
             { toEditForm ? (
-                    <div className="registerForm"> 
+                    <div className="register-form"> 
                         <form className autoComplete="off" onSubmit={handleFormSubmit}>
-                            <h1 className="createDataTextInForm">Employee modofication</h1>
+                            <h1 className="register-text">Employee modofication</h1>
                                 <div className="form-group mt-5">
                                     <input 
                                         className={`form-control ${inputValidate.fullName ? 'invalid' : ''}`}
@@ -159,7 +159,7 @@ const UpdateData = () => {
                                         ref={nameInput}
                                         />
                                 </div>
-                                {inputValidate.fullName ? <p className="invalidDataText">{inputValidate.fullName}</p> : null}
+                                {inputValidate.fullName ? <p className="invalid-data-text">{inputValidate.fullName}</p> : null}
                                 <div className="form-group mt-4">                
                                     <div className="input-group">
                                         <span className="input-group-text" id="mobile">+36</span>
@@ -173,7 +173,7 @@ const UpdateData = () => {
                                             />
                                     </div>
                                 </div>
-                                {inputValidate.mobile ? <p className="invalidDataText">{inputValidate.mobile}</p> : null}
+                                {inputValidate.mobile ? <p className="invalid-data-text">{inputValidate.mobile}</p> : null}
                                 <div className="form-group mt-4">
                                     <input 
                                         className={`form-control ${inputValidate.email ? 'invalid' : ''}`} 
@@ -184,7 +184,7 @@ const UpdateData = () => {
                                         onChange={handleInputChange}
                                         />
                                 </div>
-                                {inputValidate.email ? <p className="invalidDataText">{inputValidate.email}</p> : null}
+                                {inputValidate.email ? <p className="invalid-data-text">{inputValidate.email}</p> : null}
                                 <div className="form-group mt-4">                              
                                     <select
                                         className={`form-select ${inputValidate.rank ? 'invalid' : ''}`} 
@@ -200,19 +200,19 @@ const UpdateData = () => {
                                     <option value="senior">Senior</option>
                                     </select>
                                 </div>
-                                {inputValidate.rank ? <p className="invalidDataText">{inputValidate.rank}</p> : null}                           
-                                <div className="formButtonBox mb-4">
+                                {inputValidate.rank ? <p className="invalid-data-text">{inputValidate.rank}</p> : null}                           
+                                <div className="form-button-container mb-4">
                                     <button 
                                     type="submit" 
                                     value="Save" 
-                                    className="submitButton" 
+                                    className="submit-button" 
                                     onClick={() => {setEditData(users.id)}}>
                                         Data overwrite
                                     </button>
                                 </div>        
                                     {successful ? 
-                                        <div className="succesfulRegistrationContainer">
-                                            <div className="succesfulRegistrationBox">
+                                        <div className="succesful-registration-container">
+                                            <div className="succesful-registration-text-container">
                                                 <p>Successful Modification</p>
                                             </div> 
                                         </div>
@@ -220,16 +220,16 @@ const UpdateData = () => {
                         </form>
                     </div>
             ) : (
-                    <div className="contactsTable">
+                    <div className="contacts-container">
                         <div>
-                            <h1 className="mainTitleInTable">Contacts</h1>
+                            <h1 className="main-title-text">Contacts</h1>
                                 <PopupForDeleteEmployee 
                                     trigger={showPopup} 
                                     setTrigger={setShowPopup} 
                                     employeeIDforDelete={IDTransferToDelete}/>                       
                         </div>
                             <div className="form-group mt-4">
-                                <label htmlFor="searchName" className="searchByNameLabelText">Enter which employee you want to edit or delete:</label>
+                                <label htmlFor="searchName" className="search-by-name-label-text">Enter which employee you want to edit or delete:</label>
                                 <input 
                                     className="form-control-sm" 
                                     id="searchToEdit" 
@@ -264,14 +264,14 @@ const UpdateData = () => {
                                                     <td>{users.rank}</td>
                                                     <td>
                                                         <button 
-                                                            className="editUserButton" 
+                                                            className="edit-user-button" 
                                                             onClick={() => {editEmployee(users.id)}}>
                                                             <FaPen/>
                                                         </button>
                                                     </td>
                                                         <td>
                                                         <button 
-                                                            className="deleteUserButton" 
+                                                            className="delete-user-button" 
                                                             onClick={() => {deleteEmployee(users.id)}}>
                                                             Delete Employee
                                                         </button>

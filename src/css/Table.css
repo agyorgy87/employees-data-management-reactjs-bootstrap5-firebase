@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
 
-.contactsTable {
+
+.contacts-container {
     width: 1200px;
     margin: 150px auto;
     text-align: center;
 }
 
-.mainTitleInTable {
+.main-title-text {
     color: #EEEEEE;
     font-size: 60px;
     font-family: 'Vollkorn', serif;
 }
 
-.searchByNameLabelText {
+.search-by-name-label-text {
     padding-right: 10px;
     color: #EEEEEE;
     font-size: 20px;
@@ -29,7 +30,7 @@
     color: #EEEEEE;
 }
 
-.filterTitle {
+.filter-title {
     color: #EEEEEE;
 }
 
@@ -40,25 +41,25 @@
     font-size: 20px;
 }
 
-.editUserButton {
+.edit-user-button {
     border: 2px #EEEEEE solid;
     border-radius: 5px;
     background-color: #222831;
     color: #EEEEEE;
 }
 
-.editUserButton:hover {
+.edit-user-button:hover {
     background-color: #00ADB5;
 }
 
-.deleteUserButton {
+.delete-user-button {
     border: 2px #EEEEEE solid;
     border-radius: 5px;
     background-color: #222831;
     color: #EEEEEE;
 }
 
-.deleteUserButton:hover {
+.delete-user-button:hover {
     background-color: #00ADB5;
 }
 

@@ -31,14 +31,14 @@ const PopupForDeleteEmployee = (props) => {
         },500)
     }
 
-    return (props.trigger) ? (
-        <div className="popupFrameStyle">
-            <div className="popupWindowStyle">
-                <FiAlertTriangle className="alertIcon"/>
-                <h2 className="deleteQuestionText">Are you sure you want to delete this employee?</h2>
-                    <div className="deleteButtonBox">
-                        <button className="deleteButtons" onClick={deleteEmployee}>Yes</button>
-                        <button className="deleteButtons" onClick={() => props.setTrigger(false)}>No</button>
+    return (props.trigger) ? ( 
+        <div className="popup-frame-style">
+            <div className="popup-window-style">
+                <FiAlertTriangle className="alert-icon"/>
+                <h2 className="delete-question-text">Are you sure you want to delete this employee?</h2>
+                    <div className="delete-button-container">
+                        <button className="delete-buttons" onClick={deleteEmployee}>Yes</button>
+                        <button className="delete-buttons" onClick={() => props.setTrigger(false)}>No</button>
                     </div>
             </div>
         </div>

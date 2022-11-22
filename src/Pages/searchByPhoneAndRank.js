@@ -124,12 +124,12 @@ const Contacts = () => {
     return (
         <div>
             <NavbarMenu/>
-                <div className="contactsTable">
+                <div className="contacts-container">
                     <div>
-                        <h1 className="mainTitleInTable">Contacts</h1>
+                        <h1 className="main-title-text">Contacts</h1>
                     </div>
                     <div className="mt-4">
-                        <h3 className="filterTitle">Search By Mobile Service:</h3>
+                        <h3 className="filter-title">Search By Mobile Service:</h3>
                             <div className="form-check form-check-inline">
                                 <input 
                                     className="form-check-input" 
@@ -158,7 +158,7 @@ const Contacts = () => {
                                 <label className="form-check-label" htmlFor="vodafone">Vodafone ({vodafoneEmployees})</label>
                             </div>                    
                             <div className="mt-3">
-                                <h3 className="filterTitle">Search By Rank:</h3>
+                                <h3 className="filter-title">Search By Rank:</h3>
                                     <div className="form-check form-check-inline">
                                         <input 
                                             className="form-check-input" 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
-.homeMain {
+.home-container { 
     height: 500px;
     width: 700px;
     margin: 100px auto;
@@ -11,57 +11,57 @@
     text-align: center;
 }
 
-.welcomeBox {
+.welcome-container {
     height: 60%;
     width: 80%;
     text-align: center;
     background-color: #222831;
 } 
 
-.welcomeTitle {
+.welcome-title {
     color: #EEEEEE;
     font-size: 100px;
     font-family: 'Vollkorn', serif;
 }
 
-.welcomeLogo {
+.welcome-logo {
     display: flex;
     justify-content: center;
 }
 
-.IconStyle {
+.Icon-style {
     padding-right: 10px;
     color: #00ADB5;
     font-size: 40px;
 }
 
-.welcomeTextTitle {
+.welcome-text-title {
     color: #00ADB5;
     font-size: 40px;
     font-family: 'Staatliches', cursive;
 }
 
-.buttonsForPages {
+.buttons-for-pages {
     height: 10%;
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 
-.createDataButton {
+.create-data-button {
     width: 33%;
     border: 1px solid #EEEEEE;
     border-radius: 5px;
-    background-color: #222831;
+    background-color: #272c32;
     color: #EEEEEE;
 }
 
-.createDataButton:hover{
+.create-data-button:hover{
     background-color: #00ADB5;
     color: #EEEEEE;
 }
 
-.existingData {
+.existing-data-button {
     width: 33%;
     border: 1px solid #EEEEEE;
     border-radius: 5px;
@@ -69,7 +69,7 @@
     color: #EEEEEE;
 }
 
-.existingData:hover{
+.existing-data-button:hover{
     background-color: #00ADB5;
     color: #EEEEEE;
 }

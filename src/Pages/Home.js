@@ -7,28 +7,28 @@ const Home = () => {
 
 let navigate = useNavigate();
 
-    return (
-        <div className="homeMain">
-            <div className="welcomeBox">
-                <p className="welcomeTitle">Welcome</p>
-                    <div className="welcomeLogo">
+    return ( 
+        <div className="home-container">
+            <div className="welcome-container">
+                <p className="welcome-title">Welcome</p>
+                    <div className="welcome-logo">
                         <div>
-                            <h1 className="IconStyle"><FaRegAddressCard/></h1>
+                            <h1 className="Icon-style"><FaRegAddressCard/></h1>
                         </div>
                         <div>
-                            <p className="welcomeTextTitle">Employee Database</p>
+                            <p className="welcome-text-title">Employee Database</p>
                         </div>
                     </div>
             </div>
-                <div className="buttonsForPages">
+                <div className="buttons-for-pages">
                     <button 
                         type="button" 
-                        className="createDataButton" 
+                        className="create-data-button" 
                         onClick={() => {navigate("/createdata");}}
                         >Registration</button>
                         <button 
                         type="button" 
-                        className="existingData"
+                        className="existing-data-button"
                         onClick={() => {navigate("/searchbynameoremail");}}
                         >Database
                     </button>

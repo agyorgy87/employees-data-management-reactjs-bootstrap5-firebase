@@ -42,14 +42,14 @@ const SearchByName = () => {
 
 
     return (
-        <div> 
+        <div>  
             <NavbarMenu/>
-                <div className="contactsTable">
+                <div className="contacts-container">
                     <div>
-                        <h1 className="mainTitleInTable">Contacts</h1>
+                        <h1 className="main-title-text">Contacts</h1>
                     </div>
                     <div className="form-group mt-4">
-                        <label htmlFor="searchName" className="searchByNameLabelText">Search by Name or Email:</label>
+                        <label htmlFor="searchName" className="search-by-name-label-text">Search by Name or Email:</label>
                             <input 
                                 className="form-control-sm" 
                                 id="searchName" 

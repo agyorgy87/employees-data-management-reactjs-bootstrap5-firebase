@@ -1,4 +1,4 @@
-.popupFrameStyle {
+.popup-frame-style {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -10,7 +10,7 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.popupWindowStyle {
+.popup-window-style {
     width: 100%;
     max-width: 640px;
     padding: 32px;
@@ -21,23 +21,23 @@
     background-color: #222831;
 }
 
-.alertIcon{
+.alert-icon{
     color: rgb(200, 33, 33);
     font-size: 50px;
 }
 
-.deleteQuestionText {
+.delete-question-text {
     margin-top: 10px;
     font-size: 25px;
 }
 
-.deleteButtonBox {
+.delete-button-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
-.deleteButtons {
+.delete-buttons {
     width: 20%;
     border-radius: 5px;
     border: 2px #EEEEEE solid;
@@ -46,6 +46,6 @@
     font-size: 20px;
 }
 
-.deleteButtons:hover{
+.delete-buttons:hover{
     background-color: #00ADB5;
 }
