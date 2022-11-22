@@ -1,4 +1,4 @@
-import './CreateData.css';
+import '../css/CreateData.css';
 import React, {useState, useEffect, useRef} from 'react';
 import { db } from '../firebaseConfig';
 import { collection, addDoc } from "firebase/firestore";

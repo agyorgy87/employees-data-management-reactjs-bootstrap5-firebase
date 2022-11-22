@@ -1,4 +1,4 @@
-import './PopupForDeleteEmployee.css';
+import '../css/PopupForDeleteEmployee.css';
 import React, {useState, useEffect} from 'react';
 import { db } from "../firebaseConfig";
 import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";

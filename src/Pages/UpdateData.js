@@ -1,5 +1,5 @@
-import './Table.css';
-import './CreateData.css';
+import '../css/Table.css';
+import '../css/CreateData.css';
 import React, {useState, useEffect, useRef} from 'react';
 import { db } from "../firebaseConfig";
 import { collection, getDocs, updateDoc, doc } from "firebase/firestore";
